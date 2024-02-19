@@ -1,0 +1,29 @@
+body>footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    padding: 20px;
+
+    >section#club-sites>.container {
+        display: flex;
+        flex-direction: column;
+
+    }
+    >section:first-child {
+        margin-bottom: 50px;
+    }
+    .section-groups {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        >section {
+            flex: 1;
+            
+        }
+        @media (min-width: 992px) {
+            flex-direction: row;
+            
+        }
+    }
+}
