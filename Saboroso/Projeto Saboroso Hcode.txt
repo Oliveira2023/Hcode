@@ -1,0 +1,37 @@
+Projeto Saboroso Hcode
+
+instalação express-generator:
+
+	npm install express-generator -g
+	express -help - pra ver as opçoes
+
+Agora na pasta raiz onde vai ser criado o projeto:
+	express --view=ejs saboroso // pra selecionar a view ejs
+	npm install
+	set DEBUG=saboroso & npm start// precisa criar uma variável de ambiente pra criar o servidor
+Pronto, pode acessar através da porta localhost:3000.
+
+gerenciador de pacotes pra html:
+	npm install bower -g // se não tiver pra instalar geral
+	
+agora na pasta admin do projeto:
+	bower install
+
+problema de conexão do node com mysql: rodar esta query no workbench
+	ALTER USER 	'user'@'localhost' IDENTIFIED WITH mysql_native_passwort BY 'beluca18';
+
+npm install express-session --save connect-redis // para criar sessão de login- não usar em produção estamos usando o redis-- instalamos 2 comandos de uma vez
+ senha de acesso redis: saboroso
+
+ tive problema com connect-redis, instalei a versão do curso npm install --save connect-redis@3.3.3
+ 
+ codigo recuperação acesso Twilio:
+ oQ8ZHA7cj4x1QgMAAoWhu0a16FN73UKnt9CxHDU9
+
+ instalação do formidable:
+  npm install formidable --save //pra conectar com back end e enviar formulario de criar menu
+
+« »
+
+
+	
