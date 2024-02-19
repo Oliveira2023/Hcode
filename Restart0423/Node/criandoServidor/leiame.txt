@@ -1,0 +1,35 @@
+informações sobre criando o servidor
+
+o index.js na pasta principal é como um indice, dali encaminha para as rotas. porque o consign inclui todas as rotas que estão na pasta routesC.
+
+recapitulando,
+
+Tenho o node instalado.
+
+com o npm intalamos os pacotes que utilizamos: 
+
+    npm install para o pacote que aparecia o node_modules (verificar foi -g?)
+    npm install express
+    npm install consign --save
+
+instalamos o banco de dados NeDB
+    npm install NeDB --save
+
+    ** --save pra salvar como dependencia do projeto, nesse caso salva no arquivo package.json as informações do projeto e quando for levar pra outro lugar só fazer um npm install que instala as dependencias necessárias que estão nesse arquivo.
+
+Dentro da pasta routesC são criadas as rotas
+
+dentro da pasta utils criamos o erros.js pra tratar os erros, pra não ficar repetindo os mesmos erros nas rotas.
+    neste arquivo criamos um modulo para ser exportado quando precisamos dele.
+
+criamos a rota de encontrar 1 usuario com id
+
+neste momento ainda estamos trabalhando excusivamente com o banco.. ainda não estamos trabalhando com o formulário.. 
+
+criamos o post, put, delete...
+
+caso do express-validation:
+    ....
+
+
+esse parte foi da restAPi onde conectamos com banco de dados... até este momento só trabalhamos com banco de dados sem ligação com formulario
